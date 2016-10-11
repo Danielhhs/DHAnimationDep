@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DHAnimation_Example' do
+  pod 'DHAnimation', :path => '../'
+
+  target 'DHAnimation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
